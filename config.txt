@@ -2,7 +2,7 @@
 02: minecraft:sandstone
 03: minecraft:mushroom_stem[down=true,east=true,north=true,south=true,up=true,west=true]
 04: minecraft:redstone_block
-05: minecraft:ice
+05: minecraft:packed_ice
 06: minecraft:brewing_stand[has_bottle_0=false,has_bottle_1=false,has_bottle_2=false]
 07: minecraft:oak_leaves[distance=7,persistent=true]
 08: minecraft:white_wool
@@ -55,5 +55,8 @@
 56: minecraft:warped_planks
 57: minecraft:warped_hyphae
 58: minecraft:warped_wart_block
+59: minecraft:deepslate
+60: minecraft:raw_iron_block
+61: minecraft:glow_lichen[down=true,east=false,north=false,south=false,up=false,waterlogged=false,west=false]
 support: minecraft:stone
-needSupport: 30
+needSupport: 30, 61
